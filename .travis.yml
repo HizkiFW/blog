@@ -1,0 +1,19 @@
+install:
+  - rm -rf public || exit 0
+  - mkdir ~/_bin
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz -O hugo.tgz
+  - tar xfv hugo.tgz -C ~/_bin
+  - rm hugo.tgz ~/_bin/*.md
+  - export PATH=$HOME/_bin:$PATH
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: "${TRAVIS_BUILD_DIR}/public"
+  target_branch: gh-pages
+  on:
+branch: master
