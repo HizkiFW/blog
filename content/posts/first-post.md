@@ -1,7 +1,7 @@
 ---
-title = "First post"
-date = "2017-10-14T19:06:44+07:00"
-draft = false
+title: "First post"
+date: 2017-10-14T19:06:44+07:00
+draft: false
 ---
 
 So yeah, just started making this blog thing. Hosting it in GitHub is nice, since it's free and I get to use Markdown!

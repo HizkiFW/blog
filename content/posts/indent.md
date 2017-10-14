@@ -6,7 +6,7 @@ draft: false
 
 Finally got Travis to deploy this blog to Github! Woo!
 
-When I first set this thing up, I was expecting the proceses to be really quick and easy, but it took some time before I actually got this blog to deploy properly. I've made other hugo-based pages using Travis before, so my original plan was to just copy-paste existing `.travis.yml` file and be done with it.
+When I first set this thing up, I was expecting the process to be really quick and easy, but it took some time before I actually got this blog to deploy properly. I've made other hugo-based pages using Travis before, so my original plan was to just copy-paste existing `.travis.yml` file and be done with it.
 
 So I did that, and the page deployed successfully to the `gh-pages` branch. Great! *First commit and it already works*, I thought. But alas, I had missed one crucial piece of info. Personal GitHub pages are only served from the `master` branch.
 
