@@ -28,7 +28,7 @@ theme = "cactus"
     readMore = ""
     copyright = ""
     # Sharing options and author information in posts
-    aboutAuthor = "I'm a human."
+    aboutAuthor = "I'm a human. Probably."
     tweet = ""
     share = ""
     # 404 page
@@ -39,3 +39,10 @@ theme = "cactus"
     iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "circle"
+
+[social]
+    twitter = "https://www.twitter.com/hizkifw"
+    github = "https://www.github.com/hizkifw"
+    email = "mailto:hizkifw@gmail.com"
+    youtube = "https://www.youtube.com/c/HizkiFWOfficial"
+    reddit = "https://reddit.com/u/HizkiFW"
