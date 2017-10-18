@@ -2,6 +2,7 @@ baseurl = "https://hizkifw.github.io/"
 languageCode = "en-us"
 title = "HizkiFW's blog"
 theme = "cactus"
+googleAnalytics = "UA-69610279-5"
 
 [params]
     name = "Hizkia Felix"
