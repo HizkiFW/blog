@@ -1,10 +1,8 @@
 ---
-title: "Multitrack"
+title: "Live Multitrack Audio Recording"
 date: 2017-11-13T23:41:49+07:00
-draft: true
+draft: false
 ---
-
-# Live multitrack recording
 
 A few days ago (2017-11-10), we had an annual Drama Festival at my school, where eight classes perform a musical play of their choice. We had this one last year too, but unfortunately the only audio we get is the one from the camera microphones. I was quite disappointed, since the songs were great and they were really amazing with the singing. So this time, I've appointed myself to be the one recording the whole thing.
 
@@ -18,4 +16,4 @@ By then, I was prepared to do a 4 track recording; one for the mixer output, the
 
 I was only able to record 3 tracks (mixer output, actor mics, and my laptop mic), but fortunately the sound guy is present, and he handled all those knobs and sliders well. The resulting recording was much better than I expected, but the volume levels were a bit... *diverse*. The quiet bits were *really* quiet, and the loud bits were really, *really* loud. So I had to apply some volume leveler and compressor to level out the loudness levels.
 
-Fun fact: the raw wav files take up 41 gigabytes of disk space. The combined flac file of identical quality only take up 3 gigabytes, and the mp3 version only 300 megabytes.
+Fun fact: the raw `wav` files take up 41 gigabytes of disk space. The combined flac file of identical quality only take up 3 gigabytes, and the mp3 version only 300 megabytes.
