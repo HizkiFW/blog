@@ -5,7 +5,7 @@ tags:
 - open source
 - networking
 
-draft: true
+draft: false
 ---
 
 Aw yeah, another blog post! I was actually writing a post about open source competitions, but I moved that aside in favour of this one. Introducing [OpenWISP2](http://openwisp.org).
@@ -31,8 +31,6 @@ One of the main features of OpenWISP2 is OpenWISP2 Controller, which allows you 
 In this situation, the only options are to wait for DNS server A to come back online, or change the DNS servers in the routers' settings to point to another one. It's easy to fix just a single router, but in this scenario where you have hundreds of those things, it's going to take *way* too long to change the settings one by one. This is where OpenWISP2 comes in.
 
 OpenWISP2 provides the tools you need to connect your entire networking infrastructure to a single control center, where you can change the settings of multiple, or even all, of the devices at once. By installing [openwisp-config](http://downloads.openwisp.org/openwisp-config/) on your routers, you can have it connect to your OpenWISP2 server without that much configuring. It'll automatically register your device to the controller, where you can control its settings in just a few clicks.
-
-**[[[You can even install OpenWISP2 on multiple servers, so that when one goes down, openwisp-config can connect to another one.]]] (waiting verification from @nemesisdesign)**
 
 ## Custom firmware
 
