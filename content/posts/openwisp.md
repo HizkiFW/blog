@@ -18,11 +18,21 @@ In short, it's a set of tools to help *create and manage networking devices*. It
 
 ## The History
 
-OpenWISP began as a project to support [WiFimetropolitano](http://www.cittametropolitanaroma.gov.it/homepage/elenco-siti-tematici/wifimetropolitano/), a project started by the province of Rome in 2008 to make a free public WiFi for everyone. From there, it's obvious that the whole thing needs to be open source, to let the community make whatever modifications and improvements they want to the system.
+OpenWISP began as a project to support [WiFimetropolitano](http://www.cittametropolitanaroma.gov.it/homepage/elenco-siti-tematici/wifimetropolitano/), a project started by the province of Rome in 2008 to make a free public WiFi for everyone.
+
+Since the start they've decided to build the project to be *completely open*, and allow the community to make whatever modifications and improvements they want to the system.
 
 The size of the network kept on increasing, and so OpenWISP was developed to help manage the large scale networks. It allowed the network to grow to over 1200 active nodes.
 
 The [full history](http://openwisp.org/history.html) is available on OpenWISP's website.
+
+## Core values and goals
+
+OpenWISP, like many other organizations, have their own set of [values and goals](http://openwisp.io/docs/general/values.html) too.
+
+In short, they support a free, open, and private internet access for everyone, allowing for a reliable channel for communication. And to achieve that, they've set several goals, such as releasing free and open software to ease the creation and management of low-cost networks around the world.
+
+Personally, I strongly agree with all 5 of their values. Communication is an essential part of being human, and since the Internet, like speech and text, is a communication medium, it needs to be free and open for all.
 
 ## So what does it do?
 
@@ -60,7 +70,7 @@ Once installed, you can access the admin panel using a web browser. Simply log i
 
 ## Video demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MY097Y2cPQ0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MY097Y2cPQ0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 As seen in the short demo above, we are provided with a variety of tools, from general things like setting the timezone, DNS servers, and routing, to things such as VPNs and controlling the device LEDs.
 
@@ -74,3 +84,13 @@ Since OpenWISP is open source, you can write your own custom extensions and modi
 
 - [GitHub](https://github.com/openwisp)
 - [Support channels](http://openwisp.org/support.html)
+
+## Further resources
+
+If you're *really* that interested and would like to know more, well you're pretty lucky because Federico Capoano, OpenWISP's core developer, has done a talk about it.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n531yTtJimU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+The slides shown in the video are also [available on his website](http://static.nemesisdesign.net/openwisp2-openwrt-summit-2017).
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dHCyR6Ze8Q3Ygq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/FedericoCapoano/applying-the-unix-philosophy-to-django-projects-a-report-from-the-real-world" title="Applying the Unix Philosophy to Django projects: a report from the real world" target="_blank">Applying the Unix Philosophy to Django projects: a report from the real world</a> </strong> from <strong><a href="https://www.slideshare.net/FedericoCapoano" target="_blank">Federico Capoano</a></strong> </div>
