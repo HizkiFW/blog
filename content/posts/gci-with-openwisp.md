@@ -2,6 +2,10 @@
 title: "GCI With OpenWISP"
 date: 2018-01-14T17:09:55+07:00
 draft: true
+tags:
+- open source
+- google code in
+- openwisp
 ---
 
 ![Google Code-In Logo](/images/gci-new-logo.png)
