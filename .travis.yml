@@ -13,7 +13,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: "${TRAVIS_BUILD_DIR}/public"
+  local_dir: "/public"
   target_branch: master
   on:
     branch: source
