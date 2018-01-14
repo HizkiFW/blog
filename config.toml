@@ -4,6 +4,7 @@ title = "HizkiFW's blog"
 theme = "cactus"
 googleAnalytics = "UA-69610279-5"
 disqusShortname = "hizkiblog"
+enableEmoji = true
 
 [params]
     name = "Hizkia Felix"
