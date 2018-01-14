@@ -1,7 +1,7 @@
 ---
 title: "GCI With OpenWISP"
 date: 2018-01-14T17:09:55+07:00
-draft: true
+draft: false
 tags:
 - open source
 - google code in
@@ -14,13 +14,13 @@ Over the past month or so, I've been participating in an online programming comp
 
 # Things I've learned
 
-Of course, everyone's bound to learn something when exposed to the right environment, and boy was I exposed to the perfect one! The mentors there were really supportive, and the community has taught me much more than if I were to learn alone by trial and error. They're really patient in leading all the participants, so I'm sure everyone also learned new things. From all of the things I've learned, here are the 10 most significant ones.
+Of course, everyone's bound to learn something when exposed to the right environment, and boy was I exposed to the perfect one! The mentors there were really nice and caring, and the community has taught me much more than if I were to learn alone by trial and error. The mentors were really patient in leading all the participants, so I'm sure everyone has also learned new things. Out of all the things I've learned so far, here are the 10 most significant ones.
 
 ## Being active in the community
 
 The most important component in the open source world. Being a lone developer isn't fun, especially when you've come across a problem that isn't on [StackOverflow](https://stackoverflow.com/). I've learned so much just chatting with the mentors and other participants in the chat!
 
-Tweeting things you've made also helps you to get recognized as an open source developer. Build your reputation enough and you might have a job offering waiting for you :grinning:.
+Tweeting things you've made also helps you to get recognized as a developer. Build your reputation enough and you might have a job offering waiting for you :grinning:.
 
 ## Git
 
@@ -30,13 +30,13 @@ I've just recently learned to use Git, and so being forced to use it in this com
 
 ## Python
 
-Believe it or not, I've learned quite a lot of Python from trying to implement a feature in [Django](https://github.com/django/django) (even though I gave up, since it was taking too long and I stopped progressing after the 3-day mark). But from that experience, I've learned so much more about Python, and I'm now able to write much better code in it.
+Believe it or not, I've learned quite a lot of Python from trying to [implement a feature in openwisp-utils](https://github.com/openwisp/openwisp-utils/pull/5) (even though I gave up, since it was taking too long and I stopped progressing after the 3-day mark :pensive:). But from that experience, I've learned so much more about Python, and I'm now able to write much better code in it!
 
 ## Reading source code
 
 ![Photo of a computer screen with vim running, editing Python code](/images/code.jpg)
 
-I was not used to reading other people's code. In one of the tasks, I had to improve on OpenWISP's code, and the only way of understanding its internal structure is by reading the source code.
+I was not used to reading other people's code. In one of the tasks, I had to improve on OpenWISP's code, and the only way of understanding its internal structure is by reading the source code. From there I've realized that the code I've written so far has been quite a mess, so I hope I'll be able to improve :smile:.
 
 ## The importance of open source
 
@@ -58,15 +58,15 @@ This is one of the most emphasized point the mentors made. If you submit unteste
 
 ## The solution is usually very obvious
 
-And yes, I couldn't believe when I finally tackled the networking problem in my Linux install. I've been trying to dual boot my PC with Ubuntu since the past year, but have always come across various problems with it. The solution? Turn it off and on again. Seriously. As it turns out, Windows doesn't do a full reboot when the restart button is pressed, which means part of the RAM is still there. That caused some serious problems preventing my Linux installation from connecting to the network.
+And yes, I couldn't believe it when I finally tackled the networking problem in my Linux install. I've been trying to dual boot my PC with Ubuntu since the past year, but have always come across various problems with it. The solution? Turn it off and on again. Seriously. As it turns out, Windows doesn't do a full reboot when the restart button is pressed, which means that some part of the RAM isn't cleared. That caused some serious problems preventing my Linux installation from connecting to the network.
 
 ## Sometimes it's not your fault
 
-Bugs aren't that rare, and when you can't get something working, the problem might not be with you. It might be a problem with the software you're using. I've discovered a few bugs while doing GCI, and have reported them to the issue tracker.
+Bugs aren't that rare, and when you can't get something working, the problem might not be with you, but with the software you're using. I've discovered a few bugs while doing GCI, and have reported them to the issue tracker.
 
 # Challenges
 
-Learning new things isn't that easy, and of course, since I've learned a lot, I've also faced quite a few challenges.
+Learning new things isn't that easy, and of course, I've also faced quite a few challenges.
 
 ## Timezone differences
 
@@ -78,7 +78,7 @@ Everyone goes to school, and so do I. And as much as I'd love to learn in school
 
 ## Learning a new framework
 
-This is still one of my biggest hurdles, and I still think about it sometimes. I had a task on designing a navigation bar for OpenWISP Controller's admin panel. I submitted it and got it accepted, but then one of my mentors offered me to do the back-end part. *Django is just Python, it's fine*, I thought. But I got stuck. I spent *days* digging through the source code and trying to make sense of it, but in the end, I wasn't able to complete it. I did manage to dynamically add the menu bar buttons with Django, though, but it wasn't *exactly* as the task said. So I pushed the source code for other participants to continue.
+This is still one of my biggest hurdles, and I still think about it sometimes. I had a task on designing a navigation bar for OpenWISP Controller's admin panel. I submitted it and got it accepted, but then one of my mentors offered me to do the back-end part. *Django is just Python, it's fine*, I thought. But I got stuck. I spent *days* digging through the source code and trying to make sense of it, but in the end, I wasn't able to complete it. I did manage to dynamically add the menu bar buttons with Django, though, but it wasn't *exactly* as the task said. So I [pushed the source code](https://github.com/openwisp/openwisp-utils/pull/5) for other participants to continue.
 
 # Closing words
 
