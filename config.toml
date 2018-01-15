@@ -1,7 +1,7 @@
 baseurl = "https://hizkifw.github.io/"
 languageCode = "en-us"
 title = "HizkiFW's blog"
-theme = "cactus"
+theme = "hugo-theme-cactus-plus"
 googleAnalytics = "UA-69610279-5"
 disqusShortname = "hizkiblog"
 enableEmoji = true
@@ -17,7 +17,7 @@ enableEmoji = true
     # Integrate Javascript files or stylesheets by adding the url to the external assets or by
     # linking local files with their path relative to the static folder, e.g. "css/styles.css"
     customCSS = ["css/blog.css"]
-    customJS  = ["https://twemoji.maxcdn.com/2/twemoji.min.js?2.4", "js/blog.js"]
+    customJS  = ["js/twemoji.min.js?2.4", "js/blog.js"]
 
     # The variables below are optionally too and can be used to
     # translate or customize each string of the theme.
