@@ -29,7 +29,7 @@ enableEmoji = true
     olderPosts = ""
     newerPosts = ""
     readMore = ""
-    copyright = ""
+    copyright = "[![Work licensed under CC BY NC SA](/images/by-nc-sa.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)"
     # Sharing options and author information in posts
     aboutAuthor = "I'm a human. Probably."
     tweet = ""
