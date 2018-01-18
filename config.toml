@@ -1,4 +1,4 @@
-baseurl = "https://hizkifw.github.io/"
+baseurl = "https://blog.hizkifw.me/"
 languageCode = "en-us"
 title = "HizkiFW's blog"
 theme = "hugo-theme-cactus-plus"
