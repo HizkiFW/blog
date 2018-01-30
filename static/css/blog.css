@@ -1,3 +1,25 @@
+/* Dark theme */
+body {
+    background-color: #222;
+    color: #DDD;
+}
+.profile h1, #post-list a,
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6,
+h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+}
+a, #title, #post-list a:hover, #title:hover {
+    color: #5096ff;
+}
+nav.main-nav {
+    background: rgba(34, 34, 34, .9);
+}
+/* Dark theme end */
+
+/* Various */
+#post-body p {
+    text-align: justify;
+}
 .emoji {
     width: 1em;
     height: 1em;
@@ -5,9 +27,10 @@
 }
 
 .tags > a {
-    border: 1px solid #5694f1;
+    border: 1px solid #5096ff;
     border-radius: .2em;
     padding: .2em 1em;
+	display: inline-block;
 }
 
 .small > a > img {
