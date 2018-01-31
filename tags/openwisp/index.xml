@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openwisp on HizkiFW&#39;s blog</title>
+    <link>https://blog.hizkifw.me/tags/openwisp/</link>
+    <description>Recent content in Openwisp on HizkiFW&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[![Work licensed under CC BY NC SA](/images/by-nc-sa.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Sun, 14 Jan 2018 17:09:55 +0700</lastBuildDate>
+    
+	<atom:link href="https://blog.hizkifw.me/tags/openwisp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GCI With OpenWISP</title>
+      <link>https://blog.hizkifw.me/posts/gci-with-openwisp/</link>
+      <pubDate>Sun, 14 Jan 2018 17:09:55 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/gci-with-openwisp/</guid>
+      <description>Over the past month or so, I&amp;rsquo;ve been participating in an online programming competition called Google Code-In. The competition features 25 organizations, each of which has their own set of tasks for the students to complete. Out of all of them, I chose OpenWISP. It was initially a random choice, since I didn&amp;rsquo;t really know which one to join, but I eventually stuck with them because of the really warm and supportive community.</description>
+    </item>
+    
+  </channel>
+</rss>

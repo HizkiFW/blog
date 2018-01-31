@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HizkiFW&#39;s blog</title>
+    <link>https://blog.hizkifw.me/posts/</link>
+    <description>Recent content in Posts on HizkiFW&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[![Work licensed under CC BY NC SA](/images/by-nc-sa.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Tue, 30 Jan 2018 17:35:21 +0700</lastBuildDate>
+    
+	<atom:link href="https://blog.hizkifw.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dark Blog Theme</title>
+      <link>https://blog.hizkifw.me/posts/dark-theme/</link>
+      <pubDate>Tue, 30 Jan 2018 17:35:21 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/dark-theme/</guid>
+      <description>Being a dark-theme fanatic, I always look for a setting to enable the dark theme whenever I use a new app. I also have a Firefox extension that allows you to change any website&amp;rsquo;s stylesheet, and I use it to apply dark themes to websites I frequent. It&amp;rsquo;s really nice when they do provide a dark theme, but in most cases they don&amp;rsquo;t. And my blog theme doesn&amp;rsquo;t come with dark colors, so I made my own CSS theme for it!</description>
+    </item>
+    
+    <item>
+      <title>GCI With OpenWISP</title>
+      <link>https://blog.hizkifw.me/posts/gci-with-openwisp/</link>
+      <pubDate>Sun, 14 Jan 2018 17:09:55 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/gci-with-openwisp/</guid>
+      <description>Over the past month or so, I&amp;rsquo;ve been participating in an online programming competition called Google Code-In. The competition features 25 organizations, each of which has their own set of tasks for the students to complete. Out of all of them, I chose OpenWISP. It was initially a random choice, since I didn&amp;rsquo;t really know which one to join, but I eventually stuck with them because of the really warm and supportive community.</description>
+    </item>
+    
+    <item>
+      <title>Introducing OpenWISP2</title>
+      <link>https://blog.hizkifw.me/posts/openwisp/</link>
+      <pubDate>Sat, 30 Dec 2017 10:11:06 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/openwisp/</guid>
+      <description>Aw yeah, another blog post! I was actually writing a post about open source competitions, but I moved that aside in favour of this one. Introducing OpenWISP2.
+What&amp;rsquo;s OpenWISP2? In short, it&amp;rsquo;s a set of tools to help create and manage networking devices. It might seem a bit boring at first. Why do I need to use more software just to control my network? you may ask. Well, OpenWISP might not prove useful for a network made of a single router and a few nodes, but once your network scales to tens or even hundreds of routers and devices, it&amp;rsquo;ll be a hassle configuring and fixing things if something goes wrong, or if you simply want to change a setting and apply it to all the devices.</description>
+    </item>
+    
+    <item>
+      <title>Circumventing Android&#39;s Anti Screenshot</title>
+      <link>https://blog.hizkifw.me/posts/anti-anti-screenshot/</link>
+      <pubDate>Sun, 19 Nov 2017 14:37:24 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/anti-anti-screenshot/</guid>
+      <description>Quick story. A while back, I discovered that Telegram has this feature called &amp;ldquo;Secret chats&amp;rdquo;. It adds end-to-end encryption to the person you&amp;rsquo;re talking to, and it also disables screenshots using Android&amp;rsquo;s security policy. I wondered if I could take a screenshot anyways, so I tried to hit the screenshot button on many different situations to try to find a bug. But it never worked.
+So I turned to StackOverflow (of course) and found out that you can take screenshots using adb with a simple command:</description>
+    </item>
+    
+    <item>
+      <title>Live Multitrack Audio Recording</title>
+      <link>https://blog.hizkifw.me/posts/multitrack/</link>
+      <pubDate>Mon, 13 Nov 2017 23:41:49 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/multitrack/</guid>
+      <description>A few days ago (2017-11-10), we had an annual Drama Festival at my school, where eight classes perform a musical play of their choice. We had this one last year too, but unfortunately the only audio we get is the one from the camera microphones. I was quite disappointed, since the songs were great and the performers really did their best. So this time, I&amp;rsquo;ve appointed myself to be the one in charge of recording the whole thing.</description>
+    </item>
+    
+    <item>
+      <title>Check your indentation!</title>
+      <link>https://blog.hizkifw.me/posts/indent/</link>
+      <pubDate>Sat, 14 Oct 2017 21:32:50 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/indent/</guid>
+      <description>Finally got Travis to deploy this blog to Github! Woo!
+When I first set this thing up, I was expecting the process to be really quick and easy, but it took some time before I actually got this blog to deploy properly. I&amp;rsquo;ve made other hugo-based pages using Travis before, so my original plan was to just copy-paste existing .travis.yml file and be done with it.
+So I did that, and the page deployed successfully to the gh-pages branch.</description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>https://blog.hizkifw.me/posts/first-post/</link>
+      <pubDate>Sat, 14 Oct 2017 19:06:44 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/first-post/</guid>
+      <description>So yeah, just started making this blog thing. Hosting it in GitHub is nice, since it&amp;rsquo;s free and I get to use Markdown!
+Actually the main reason is so that my contribution boxes will look a little more lively, heh. I&amp;rsquo;ll probably make a bunch of blog posts and publish them every other day just to fill it up.
+Anyways, I don&amp;rsquo;t really have anything much to say for this one.</description>
+    </item>
+    
+  </channel>
+</rss>

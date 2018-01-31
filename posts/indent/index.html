@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<meta name="description" content="Just a blog">
+		<meta name="generator" content="Hugo 0.26" />
+		<title>Check your indentation! &middot; HizkiFW&#39;s blog</title>
+		<link rel="shortcut icon" href="https://blog.hizkifw.me/images/favicon.ico">
+		<link rel="stylesheet" href="https://blog.hizkifw.me/css/style.css">
+		<link rel="stylesheet" href="https://blog.hizkifw.me/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://blog.hizkifw.me/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="https://blog.hizkifw.me/index.xml" rel="alternate" type="application/rss+xml" title="HizkiFW&#39;s blog" />
+		
+
+		
+		<link rel="stylesheet" href="https://blog.hizkifw.me/css/blog.css">
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://blog.hizkifw.me/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://blog.hizkifw.me/posts'>Archive</a>
+	<a href='https://blog.hizkifw.me/tags'>Tags</a>
+	<a href='https://blog.hizkifw.me/about'>About</a>
+
+	
+
+	
+	<a class="cta" href="https://blog.hizkifw.me/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Check your indentation!
+                    </h1>
+                    <h2 class="headline">
+                    Oct 14, 2017 21:32
+                    · 433 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    <p>Finally got Travis to deploy this blog to Github! Woo!</p>
+
+<p>When I first set this thing up, I was expecting the process to be really quick and easy, but it took some time before I actually got this blog to deploy properly. I&rsquo;ve made other hugo-based pages using Travis before, so my original plan was to just copy-paste existing <code>.travis.yml</code> file and be done with it.</p>
+
+<p>So I did that, and the page deployed successfully to the <code>gh-pages</code> branch. Great! <em>First commit and it already works</em>, I thought. But alas, I had missed one crucial piece of info. Personal GitHub pages are only served from the <code>master</code> branch.</p>
+
+<p>So I did what any reasonable person would do, copy the <code>master</code> branch to another one, and empty the old <code>master</code> branch. Then I watched the logs as Travis builds my blog. It exited with 0, just like the previous one.</p>
+
+<p><em>Great, it should work this time</em>, I thought again. But you guessed it, it&rsquo;s still not working. It just displayed a 404 page. I checked the master branch to make sure that the files are there, but found out that it was still empty. It worked with the <code>gh-pages</code> branch before, so why isn&rsquo;t it working now?</p>
+
+<p>I checked the Travis logs again just to make sure, and found one seemingly innocent line, tucked between the others, that stated the reason for failure:</p>
+
+<pre><code>Skipping a deployment with the pages provider because this branch is not permitted
+</code></pre>
+
+<p>Very specific. That much info would <em>totally</em> help me solve this problem amirite? Well, I went up to Google and hoped that there&rsquo;d be a StackOverflow question about this one, but most of the results are GitHub issues on hugo&rsquo;s repo, and they&rsquo;re not using the <code>pages</code> provider. I added some quotation marks around it so that I&rsquo;d get the specific string, but it yielded only 2 results, both of which are someone else&rsquo;s Travis logs.</p>
+
+<p>I almost lost hope at this point. Incidentally, I happen to be joining a programming competition thing called BesutKode, so I asked some of the guys there to help me out with this one. They all seem stumped too, but one of them spotted a potential mistake. The indentation was off on my <code>.travis.yml</code> file. Specifically, the last line had no indentation, when it was supposed to be 2 levels deep.</p>
+
+<p>So I added four spaces to the last line, pushed it to the repo, and voila! Travis now deployed the page to the master branch!</p>
+
+<p>Lesson learned: <em>always</em> check your indentation.</p>
+
+<p>tl;dr: almost nuked a repo because I forgot 4 spaces.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="mailto:hizkifw@gmail.com">
+        circleemail
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/hizkifw">
+        circlegithubalt
+    </a>
+    
+    <a class="symbol" href="https://reddit.com/u/HizkiFW">
+        circlereddit
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/hizkifw">
+        circletwitterbird
+    </a>
+    
+    <a class="symbol" href="https://www.youtube.com/c/HizkiFWOfficial">
+        circleyoutube
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="/images/by-nc-sa.svg" alt="Work licensed under CC BY NC SA" /></a>
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://blog.hizkifw.me/js/jquery-2.2.4.min.js"></script>
+<script src="https://blog.hizkifw.me/js/main.js"></script>
+<script src="https://blog.hizkifw.me/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="https://blog.hizkifw.me/js/twemoji.min.js?2.4"></script>
+
+<script src="https://blog.hizkifw.me/js/blog.js"></script>
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-69610279-5', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

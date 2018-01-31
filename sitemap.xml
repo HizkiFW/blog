@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/dark-theme/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/gci-with-openwisp/</loc>
+    <lastmod>2018-01-14T17:09:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/openwisp/</loc>
+    <lastmod>2017-12-30T10:11:06+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/anti-anti-screenshot/</loc>
+    <lastmod>2017-11-19T14:37:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/multitrack/</loc>
+    <lastmod>2017-11-13T23:41:49+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/indent/</loc>
+    <lastmod>2017-10-14T21:32:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/first-post/</loc>
+    <lastmod>2017-10-14T19:06:44+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/adb/</loc>
+    <lastmod>2017-11-19T14:37:24+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/android/</loc>
+    <lastmod>2017-11-19T14:37:24+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/css/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/google-code-in/</loc>
+    <lastmod>2018-01-14T17:09:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/hugo/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/networking/</loc>
+    <lastmod>2017-12-30T10:11:06+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/open-source/</loc>
+    <lastmod>2018-01-14T17:09:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/openwisp/</loc>
+    <lastmod>2018-01-14T17:09:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/posts/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/programming/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/categories/programming/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/</loc>
+    <lastmod>2017-11-19T14:37:24+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hizkifw.me/tags/theme/</loc>
+    <lastmod>2018-01-30T17:35:21+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

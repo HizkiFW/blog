@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Code In on HizkiFW&#39;s blog</title>
+    <link>https://blog.hizkifw.me/tags/google-code-in/</link>
+    <description>Recent content in Google Code In on HizkiFW&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[![Work licensed under CC BY NC SA](/images/by-nc-sa.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Sun, 14 Jan 2018 17:09:55 +0700</lastBuildDate>
+    
+	<atom:link href="https://blog.hizkifw.me/tags/google-code-in/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GCI With OpenWISP</title>
+      <link>https://blog.hizkifw.me/posts/gci-with-openwisp/</link>
+      <pubDate>Sun, 14 Jan 2018 17:09:55 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/gci-with-openwisp/</guid>
+      <description>Over the past month or so, I&amp;rsquo;ve been participating in an online programming competition called Google Code-In. The competition features 25 organizations, each of which has their own set of tasks for the students to complete. Out of all of them, I chose OpenWISP. It was initially a random choice, since I didn&amp;rsquo;t really know which one to join, but I eventually stuck with them because of the really warm and supportive community.</description>
+    </item>
+    
+    <item>
+      <title>Introducing OpenWISP2</title>
+      <link>https://blog.hizkifw.me/posts/openwisp/</link>
+      <pubDate>Sat, 30 Dec 2017 10:11:06 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/openwisp/</guid>
+      <description>Aw yeah, another blog post! I was actually writing a post about open source competitions, but I moved that aside in favour of this one. Introducing OpenWISP2.
+What&amp;rsquo;s OpenWISP2? In short, it&amp;rsquo;s a set of tools to help create and manage networking devices. It might seem a bit boring at first. Why do I need to use more software just to control my network? you may ask. Well, OpenWISP might not prove useful for a network made of a single router and a few nodes, but once your network scales to tens or even hundreds of routers and devices, it&amp;rsquo;ll be a hassle configuring and fixing things if something goes wrong, or if you simply want to change a setting and apply it to all the devices.</description>
+    </item>
+    
+  </channel>
+</rss>

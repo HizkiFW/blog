@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on HizkiFW&#39;s blog</title>
+    <link>https://blog.hizkifw.me/categories/programming/</link>
+    <description>Recent content in Programming on HizkiFW&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[![Work licensed under CC BY NC SA](/images/by-nc-sa.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Tue, 30 Jan 2018 17:35:21 +0700</lastBuildDate>
+    
+	<atom:link href="https://blog.hizkifw.me/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dark Blog Theme</title>
+      <link>https://blog.hizkifw.me/posts/dark-theme/</link>
+      <pubDate>Tue, 30 Jan 2018 17:35:21 +0700</pubDate>
+      
+      <guid>https://blog.hizkifw.me/posts/dark-theme/</guid>
+      <description>Being a dark-theme fanatic, I always look for a setting to enable the dark theme whenever I use a new app. I also have a Firefox extension that allows you to change any website&amp;rsquo;s stylesheet, and I use it to apply dark themes to websites I frequent. It&amp;rsquo;s really nice when they do provide a dark theme, but in most cases they don&amp;rsquo;t. And my blog theme doesn&amp;rsquo;t come with dark colors, so I made my own CSS theme for it!</description>
+    </item>
+    
+  </channel>
+</rss>
