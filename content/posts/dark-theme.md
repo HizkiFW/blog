@@ -3,10 +3,10 @@ title: "Dark Blog Theme"
 date: 2018-01-30T17:35:21+07:00
 tags: ["Programming", "CSS", "Hugo", "Theme"]
 categories: ["Programming"]
-draft: true
+draft: false
 ---
 
-Being a dark-theme fanatic, I always look for a setting to enable the dark theme whenever I use a new app. It's really nice when they do provide it, but in some cases they don't. And my blog theme doesn't come with dark colors, so I made my own CSS theme for it!
+Being a dark-theme fanatic, I always look for a setting to enable the dark theme whenever I use a new app. I also have a Firefox extension that allows you to change any website's stylesheet, and I use it to apply dark themes to websites I frequent. It's really nice when they do provide a dark theme, but in most cases they don't. And my blog theme doesn't come with dark colors, so I made my own CSS theme for it!
 
 ```css
 body {
